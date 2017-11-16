@@ -22,7 +22,7 @@ module.exports = function isUserAuthorized(prefix, requiredPermissions, loggedIn
     const requiredPermissionsMapped = requiredPermissions.map(function (permission) {
         return  prefix ? prefix + permission : permission;
     });
-    if (loggedInUser && loggedInUser.permissions.length) {
+    if (loggedInUser && loggedInUser.permissions && loggedInUser.permissions.length) {
         const permissions = loggedInUser.permissions.sort();
         for (var i = 0; i < requiredPermissionsMapped.length; i += 1) {
             const permission = requiredPermissionsMapped[i];
