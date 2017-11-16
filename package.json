@@ -1,0 +1,19 @@
+{
+  "name": "lomis-user-authorized",
+  "version": "1.0.0",
+  "description": "Authorize user module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eHealthAfrica/lomis-user-authorized.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eHealthAfrica/lomis-user-authorized/issues"
+  },
+  "homepage": "https://github.com/eHealthAfrica/lomis-user-authorized#readme"
+}
